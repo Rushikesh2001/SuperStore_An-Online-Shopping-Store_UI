@@ -1,0 +1,150 @@
+{
+  "customer": [
+    {
+      "label": "Your Name",
+      "tag": "input",
+      "type": "text",
+      "model": "name",
+      "value": "",
+      "criteria": ["Required"],
+      "errorMessage": ""
+    },
+    {
+      "label": "Email Id",
+      "tag": "input",
+      "type": "text",
+      "model": "uid",
+      "value": "",
+      "criteria": ["Required", "Email valid"],
+      "errorMessage": ""
+    },
+    {
+      "label": "Mobile Number",
+      "tag": "input",
+      "type": "text",
+      "model": "mobno",
+      "value": "",
+      "criteria": ["Required", "10CharOnly", "Number"],
+      "errorMessage": ""
+    },
+    {
+      "label": "Address",
+      "tag": "input",
+      "type": "text",
+      "model": "address",
+      "value": "",
+      "criteria": ["Required"],
+      "errorMessage": ""
+    },
+    {
+      "label": "Country",
+      "tag": "input",
+      "type": "text",
+      "model": "country",
+      "value": "",
+      "criteria": ["Required", "Min4Char"],
+      "errorMessage": ""
+    },
+    {
+      "label": "State",
+      "tag": "input",
+      "type": "text",
+      "model": "state",
+      "value": "",
+      "criteria": ["Required"],
+      "errorMessage": ""
+    },
+    {
+      "label": "Pin code",
+      "tag": "input",
+      "type": "text",
+      "model": "pincode",
+      "value": "",
+      "criteria": ["Required", "Max6Char", "Number"],
+      "errorMessage": ""
+    }
+  ],
+  "merchant": [
+    {
+      "label": "Name of the merchant",
+      "tag": "input",
+      "type": "text",
+      "model": "name",
+      "value": "",
+      "criteria": ["Required"],
+      "errorMessage": ""
+    },
+    {
+      "label": "Email Id",
+      "tag": "input",
+      "type": "text",
+      "model": "uid",
+      "value": "",
+      "criteria": ["Required", "Email valid"],
+      "errorMessage": ""
+    },
+    {
+      "label": "Mobile Number",
+      "tag": "input",
+      "type": "text",
+      "model": "mobno",
+      "value": "",
+      "criteria": ["Required", "10CharOnly", "Number"],
+      "errorMessage": ""
+    },
+    {
+      "label": "Store name",
+      "tag": "input",
+      "type": "text",
+      "model": "storeName",
+      "value": "",
+      "criteria": ["Required"],
+      "errorMessage": ""
+    },
+    {
+      "label": "Store address",
+      "tag": "input",
+      "type": "text",
+      "model": "storeAddr",
+      "value": "",
+      "criteria": ["Required"],
+      "errorMessage": ""
+    },
+    {
+      "label": "Country",
+      "tag": "input",
+      "type": "text",
+      "model": "country",
+      "value": "",
+      "criteria": ["Required", "Min4Char"],
+      "errorMessage": ""
+    },
+    {
+      "label": "State",
+      "tag": "input",
+      "type": "text",
+      "model": "state",
+      "value": "",
+      "criteria": ["Required"],
+      "errorMessage": ""
+    },
+    {
+      "label": "Pin code",
+      "tag": "input",
+      "type": "text",
+      "model": "pincode",
+      "value": "",
+      "criteria": ["Required", "Max6Char", "Number"],
+      "errorMessage": ""
+    },
+    {
+      "label": "Tax number",
+      "tag": "input",
+      "type": "text",
+      "model": "taxno",
+      "value": "",
+      "criteria": ["Required", "Max15Char"],
+      "errorMessage": ""
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+.menu {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid red;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: #46305e;  Color for dark mode */
+}
+
+#navTitle {
+  display: flex;
+  height: 70px;
+  width: 205px;
+  border: 1px solid blue;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  margin: 0px 45px;
+}
+
+#navTitle img {
+  height: 68px;
+  width: 193px;
+}
+
+#search {
+  height: 36px;
+  width: 462px;
+  border: 2px solid blue;
+  border-radius: 28px;
+  padding: 0 10px;
+  outline: none;
+}
+
+#search:focus {
+  /* border: 2px solid yellow; Color for dark mode */
+  border: 2px solid rgb(177, 101, 101);
+}
+
+.login {
+  display: flex;
+  height: 35px;
+  width: 126px;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  background-color: #5d5ddf;
+  border: 1px solid #5d5ddf;
+  border-radius: 9px;
+  margin: 0 54px 0 100px;
+  cursor: pointer;
+}
+
+.login a {
+  color: white;
+  text-decoration: none;
+}
+
+.login:hover {
+  background-color: #2020c0;
+}
+
+#cart {
+  margin: 0 22px 0 59px;
+  cursor: pointer;
+}
+
+#cart i {
+  transform: scale(1.5);
+}
+
+#colorMode {
+  display: flex;
+  height: 23px;
+  width: 47px;
+  align-items: center;
+  background-color: #5d5ddf;
+  border: 1px solid #5d5ddf;
+  border-radius: 25px;
+  padding: 0 5px;
+  margin: 0 19px;
+  position: relative;
+}
+
+#circle {
+  background-color: white;
+  height: 17px;
+  width: 19px;
+  border: 1px solid white;
+  border-radius: 100%;
+  cursor: pointer;
+  position: absolute;
+  transition: transform 400ms 50ms ease;
+}
+
+#userInfoDropdown {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+#userInfoDropdown i {
+  transform: scale(1.5);
+}

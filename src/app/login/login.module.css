@@ -1,0 +1,131 @@
+.container {
+  height: fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.heading {
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  color: #7a7af1;
+  margin: 30px auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 309px;
+  margin: 10px auto;
+  border: 1px solid #ccf;
+  border-radius: 4px;
+  padding: 20px 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  border: 1px solid none;
+  width: 100%;
+  padding: 20px 0;
+  position: relative;
+}
+
+.row > label {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #35085f;
+}
+
+.row > input {
+  display: flex;
+  height: 30px;
+  width: 70%;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+.row > input:focus-visible {
+  outline: #8080f3 auto 1px;
+  box-shadow: 0px 0px 7px 2px #8080f3;
+}
+
+.row #eyeBlock {
+  position: absolute;
+  right: 75px;
+  top: 57px;
+}
+
+.eyeClose,
+.eyeOpen {
+  cursor: pointer;
+}
+
+#eyeBlock .eyeOpen {
+  display: none;
+}
+
+.features {
+  display: flex;
+  height: 56px;
+  width: 100%;
+  border: 1px solid none;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.features a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.features a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  display: flex;
+  height: 30px;
+  width: 75px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+  background-color: #7a7af1;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #7a7af1;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #5656cb;
+}
+
+.newUser {
+  position: absolute;
+  left: 92px;
+}
+
+.error {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid none;
+  margin-top: 5px;
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#loginError {
+  display: none;
+  color: red;
+  font-weight: bold;
+}

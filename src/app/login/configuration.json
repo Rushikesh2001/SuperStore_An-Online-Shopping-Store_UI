@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Email Id",
+    "tag": "input",
+    "type": "text",
+    "model": "uid",
+    "value": "",
+    "criteria": ["Required", "Email valid"],
+    "errorMessage": ""
+  },
+  {
+    "label": "Password",
+    "tag": "input",
+    "type": "password",
+    "model": "pwd",
+    "value": "",
+    "criteria": ["Required", "Min8Char"],
+    "errorMessage": ""
+  }
+]
